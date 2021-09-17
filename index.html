@@ -9,6 +9,97 @@
     </title>
 </head>
 <body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p id="header-par">Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+
+    <main>
+        <!-- Flexbox Row -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>Flexbox Row</h2>
+            </div>
+            <p class="desc">
+                Use these three properties to create a Flexbox row layout.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.row {<br>&emsp;&emsp;display: flex;<br>&emsp;&emsp;flex-direction: row;<br>&emsp;&emsp;flex-wrap: wrap;<br>}</p>
+            </div>
+        </div>
+
+        <!-- Flexbox Column -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>Flexbox Column</h2>
+            </div>
+            <p class="desc">
+                Use this to create a Flexbox column layout.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.column {<br>&emsp;&emsp;display: flex;<br>&emsp;&emsp;flex-direction: column;<br>}</p>
+            </div>
+        </div>
+
+        <!-- CSS Grid Layout -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>CSS Grid Layout</h2>
+            </div>
+            <p class="desc">
+                Build a 12-column layout using CSS Grid.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.grid {<br>&emsp;&emsp;display: grid;<br>&emsp;&emsp;width: 100%;<br>&emsp;&emsp;grid-template-columns: repeat(12, 1fr);<br>}</p>
+            </div>
+        </div>
+
+        <!-- Linear Gradients -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>Linear Gradients</h2>
+            </div>
+            <p class="desc">
+                This will create a background linear gradient from top to bottom.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.linear-gradient-background {<br>&emsp;&emsp;background-image: linear-gradient(rgba(323, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);<br>}</p>
+            </div>
+        </div>
+
+        <!-- Box Transition Glow -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>Box Transition Glow</h2>
+            </div>
+            <p class="desc">
+                Use transition and box shadows to glow on hover.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.code-card .card-header {<br>&emsp;&emsp;border-radius: 8px;<br>&emsp;&emsp;transition: all 0.5s ease-in-out;<br>}</p>
+                <br>
+                <p class="code-text">.code-card:hover, .code-card:hover .card-header {<br>&emsp;&emsp;box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);<br>}</p>
+            </div>
+        </div>
+
+        <!-- Overlay Card with Title -->
+        <div class="layer-1">
+            <div class="top">
+                <h2>Overlay Card with Title</h2>
+            </div>
+            <p class="desc">
+                Use position properties and negative margins to raise elements higher than their natural starting point.
+            </p>
+            <div class="code-box">
+                <p class="code-text">.card-header {<br>&emsp;&emsp;position: relative;<br>&emsp;&emsp;margin-top: -20px;<br>}</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <h2>Made with (//ToDo: Add Heart) and CSS </h2>
+    </footer>
     
 </body>
 </html>
